@@ -1,3 +1,6 @@
+click me to view
+<a href="https://karthikv1392.github.io/cs3301_osn/mini-projects/mp1">PROBLEM STATEMENT</a>
+
 # Custom C Shell
 
 ## How to Run
@@ -38,11 +41,11 @@
         - prints the permissions of the files in symbolic format.
 - **log**: Handles logging functionalities.
     - *Syntax*: `log`
-        - displays the contents of the `actual.log` file.
+        - displays the contents of the `command_log.txt` file.
     - *Syntax*: `log purge`
-        - purges the contents of the `actual.log` file.
+        - purges the contents of the `command_log.txt` file.
     - *Syntax*: `log execute <number>`
-        - executes the last `number` commands from the `actual.log` file.
+        - executes the last `number` commands from the `command_log.txt` file.
     - *Note*: The `log` does not logs the most recent command.
         - It logs all the commands (erreneous too) except the most recent one.
         - The input directly entered in the terminal is logged irrespective of the output.
