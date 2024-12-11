@@ -1,0 +1,26 @@
+
+# alias keyword is used to declare aliases
+# syntax for declaring function 
+# myfunc() // 1st line
+# {        // 2nd line
+#          //body
+# }        //end
+
+alias reveall = reveal -l
+alias reveala = reveal -a 
+alias house = hop ~
+alias clean = rm ./a.out
+
+
+
+mk_hop()
+{
+mkdir "$1" 
+hop "$1" 
+}
+
+hop_seek()
+{
+hop "$1" 
+seek "$1" 
+}

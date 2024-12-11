@@ -1,0 +1,15 @@
+iMan
+iMan sleep
+clear
+reveall
+clear
+sleep 10 &
+activities
+ls
+reveal
+reveal -alala
+hop ..
+reveal
+hop -
+ls
+iMan sleep
